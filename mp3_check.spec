@@ -6,7 +6,6 @@ Group:     Sound
 URL:	   https://sourceforge.net/project/?group_id=6126
 License:   GPL
 Source:    ftp://ftp.thedeepsky.com/outgoing/mp3_check-%version.tar.bz2
-Buildroot: %{_tmppath}/mp3_check-root
 
 %description
 
