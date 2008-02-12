@@ -9,7 +9,6 @@ Source:    ftp://ftp.thedeepsky.com/outgoing/mp3_check-%version.tar.bz2
 Buildroot: %{_tmppath}/mp3_check-root
 
 %description
-
 Identify in explicit detail mp3s that do not correctly follow the mp3
 format. Also look for invalid frame headers, missing frames, etc. This
 can be especially important when building an archive, and you want
