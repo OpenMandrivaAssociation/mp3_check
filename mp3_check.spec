@@ -1,7 +1,7 @@
 Name:      mp3_check 
 Summary:   A utility which analyzes mp3 files for errors and standards conformance
 Version:   1.98
-Release: %mkrel 9
+Release: %mkrel 10
 Group:     Sound
 URL:	   https://sourceforge.net/project/?group_id=6126
 License:   GPL
