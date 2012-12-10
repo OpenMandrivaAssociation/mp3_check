@@ -33,3 +33,36 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/mp3_check
 %doc NOTES README THANKYOU WISHLIST MY_NOTES GOALS FOR_TESTING
 %doc MILESTONE* TODO
+
+
+%changelog
+* Tue Aug 02 2011 GÃ¶tz Waschk <waschk@mandriva.org> 1.98-10mdv2012.0
++ Revision: 692728
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 1.98-9mdv2011.0
++ Revision: 252930
+- rebuild
+
+* Tue Feb 12 2008 Thierry Vignaud <tv@mandriva.org> 1.98-7mdv2008.1
++ Revision: 166024
+- fix spacing at top of description
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+
+* Mon Jul 31 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.98-1mdv2007.0
+- Rebuild
+
+* Mon Feb 06 2006 GÃ¶tz Waschk <waschk@mandriva.org> 1.98-6mdk
+- Rebuild
+- use mkrel
+
+* Fri Feb 04 2005 Götz Waschk <waschk@linux-mandrake.com> 1.98-5mdk
+- rebuild
+
+* Fri Jan 02 2004 Götz Waschk <waschk@linux-mandrake.com> 1.98-4mdk
+- routinely rebuild
+
