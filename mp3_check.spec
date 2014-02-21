@@ -7,6 +7,8 @@ URL:	   https://sourceforge.net/project/?group_id=6126
 License:   GPL
 Source:    ftp://ftp.thedeepsky.com/outgoing/mp3_check-%version.tar.bz2
 
+%define debug_package %{nil}
+
 %description
 Identify in explicit detail mp3s that do not correctly follow the mp3
 format. Also look for invalid frame headers, missing frames, etc. This
